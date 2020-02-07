@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1270px;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 60px;
+}
+#section1{
+    height: 500px;
+    background-color: black;
+}
+
+.info-divs{
+    background-color: #e9204f;
+    height: 378px;
+    margin-left: 22px;
+    position: relative;
+    cursor: pointer;
+}
+
+.product-design{
+    background-color: rgb(31, 30, 30);
+    transition: 0.3s ease-in-out;
+}
+
+.inovative{
+    background-color: rgb(31, 30, 30);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.col-4{
+    width: 31%;
+    float: left;
+}
+
+i{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.fa-rocket, .fa-chart-pie{
+    color: #e9204f;
+    transition: 0.3s ease-in-out;
+}
+
+.info-divs p{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    width: 300px;
+    top: 208px;
+    left: 40px;
+    line-height: 27px;
+}
+
+.info-divs h3{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 135px;
+    left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.border1{
+    height: 2px;
+    width: 41px;
+    position: absolute;
+    top: 198px;
+    left: 40px;
+    background-color: white;
+}
+.border2{
+    height: 2px;
+    width: 41px;
+    position: absolute;
+    top: 198px;
+    left: 40px;
+    background-color: #e9204f;
+}
+.border3{
+    height: 2px;
+    width: 41px;
+    position: absolute;
+    top: 198px;
+    left: 40px;
+    background-color: #e9204f;
+}
+
+.inovative:hover{
+    background-color: #e9204f;
+    
+    
+}
+.inovative:hover .piee  {
+    color: white;
+}
+
+.inovative:hover .border3  {
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.product-design:hover{
+    background-color: #e9204f;
+    
+    
+}
+.product-design:hover .roket  {
+    color: white;
+}
+
+.product-design:hover .border2  {
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
